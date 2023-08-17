@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: hacbs-test-project-gixk
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/rhtap-demo-xlhk-tenant/rhtap-demo-app/hacbs-test-project-gixk@sha256:2cc5fe40029fc3a55b0a3ff0905af71d1c7c9179ca155c69bbc8632389921c5e
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-xlhk-tenant/rhtap-demo-app/hacbs-test-project-gixk@sha256:cc763f16ec36e0eedecfffe09bc148278a3bb3718b37126343196bca3f4352be
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
